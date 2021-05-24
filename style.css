@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #b7d0ff;
+  font-family: "RocknRoll One", sans-serif;
+  color: black;
+}
+
+header {
+  background-color: #763626;
+  height: 100px;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  margin: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  float: left;
+  padding: 33px 0 0 50px;
+}
+
+nav a {
+  display: block;
+  float: right;
+  margin: 40px 50px 0 0;
+  color: #fff6e8;
+}
+
+.main {
+  height: 900px;
+  text-align: center;
+}
+
+.mainconc {
+  height: 1050px;
+  text-align: center;
+}
+
+.mainacc {
+  height: 1000px;
+  text-align: center;
+}
+
+.titlemain {
+  text-align: center;
+  padding: 150px 0 0 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+.prmain {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.thememain {
+  text-align: center;
+  padding: 70px 0 0 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+.prtheme {
+  text-align: center;
+  text-align: justify;
+  margin: 0;
+  padding: 50px 200px 0 200px;
+}
+
+footer {
+  height: 79px;
+  background-color: #763626;
+  color: #fff6e8;
+}
+
+.prfooter {
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #aaaaaa;
+}
+
+.actif {
+  color: #aaaaaa;
+  transform: scale(1.1);
+}
+.ytb {
+  display: block;
+  margin: auto;
+}
+
+.img {
+  height: 350px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.imgacc {
+  height: 350px;
+  display: inline;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.img2 {
+  height: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+table.unstyledTable {
+  margin: 30px auto 0 auto;
+  width: 80%;
+  height: 50px;
+  text-align: center;
+}
+table.unstyledTable td,
+table.unstyledTable th {
+  border: 2px solid #aaaaaa;
+  padding: 0px 1px;
+}
+table.unstyledTable thead {
+  background: #dddddd;
+}
+table.unstyledTable thead th {
+  font-weight: normal;
+}
